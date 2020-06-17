@@ -2,7 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import mime from 'mime';
 import aws, { S3 } from 'aws-sdk';
-import uploadConfing from '@config/upload';
+import uploadConfig from '@config/upload';
 import IStorageProvider from '../models/IStorageProvider';
 
 class DiskStorageProvider implements IStorageProvider {
@@ -15,7 +15,7 @@ class DiskStorageProvider implements IStorageProvider {
   }
 
   public async saveFile(file: string): Promise<string> {
-    const originalPath = path.resolve(uploadConfing.tmpFolder, file);
+    const originalPath = path.resolve(uploadConfig.tmpFolder, file);
 
     const ContentType = mime.getType(originalPath);
 
@@ -27,7 +27,7 @@ class DiskStorageProvider implements IStorageProvider {
 
     await this.client
       .putObject({
-        Bucket: uploadConfing.config.aws.bucket,
+        Bucket: uploadConfig.config.aws.bucket,
         Key: file,
         ACL: 'public-read',
         Body: fileContent,
@@ -43,7 +43,7 @@ class DiskStorageProvider implements IStorageProvider {
   public async deleteFile(file: string): Promise<void> {
     await this.client
       .deleteObject({
-        Bucket: uploadConfing.config.aws.bucket,
+        Bucket: uploadConfig.config.aws.bucket,
         Key: file,
       })
       .promise();
