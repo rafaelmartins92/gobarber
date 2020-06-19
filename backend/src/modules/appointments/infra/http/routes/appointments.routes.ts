@@ -19,9 +19,9 @@ appointmentsRouter.post(
       date: Joi.date(),
     },
   }),
+  appointmentsController.create,
 );
 
-appointmentsRouter.post('/', appointmentsController.create);
 appointmentsRouter.get('/me', providerAppointmentsController.index);
 
 export default appointmentsRouter;
