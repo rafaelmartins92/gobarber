@@ -34,7 +34,7 @@
 </p>
 
 <p align="center">
-  <img alt="Scene" src="https://ik.imagekit.io/rafaelmartins/portifolio-scene---gobarber_2x_bAvDHJWOJ.png">
+  <img alt="Scene" src="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---gobarber_2x_iO5PPshk5.png.png">
   <!-- <img alt="Design" src="https://ik.imagekit.io/rafaelmartins/portfolio-ui-design---gobarber_2x_XaCNechD0.png"> -->
 </p>
 
