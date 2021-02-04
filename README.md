@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Logo" src="https://ik.imagekit.io/rafaelmartins/logo-gobarber_HPocWu53G.png" />
+    <img alt="Logo" src="https://ik.imagekit.io/rafaelmartins/README/logo_2x_f32_h9iDR.png" />
     <br>
 </h1>
 
@@ -34,7 +34,7 @@
 </p>
 
 <p align="center">
-  <img alt="Scene" src="https://ik.imagekit.io/rafaelmartins/portifolio-scene---gobarber_2x_bAvDHJWOJ.png">
+  <img alt="Scene" src="https://ik.imagekit.io/rafaelmartins/Portfolio/portfolio-scene---gobarber_2x_iO5PPshk5.png">
   <!-- <img alt="Design" src="https://ik.imagekit.io/rafaelmartins/portfolio-ui-design---gobarber_2x_XaCNechD0.png"> -->
 </p>
 
